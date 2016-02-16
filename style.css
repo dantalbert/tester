@@ -1,0 +1,32 @@
+#first{
+	height: 30px;
+	padding: 10px;
+	background-color: #C2E0FF;
+}
+li{
+	font-family: Helvetica, Arial, sans-serif;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	list-style: none;
+	position: relative;
+}
+a:link{
+	text-decoration: none;
+}
+a:hover{
+	color:yellow;
+}
+li ul{
+	visibility: hidden;
+	position:absolute;
+	padding: 5px;
+	background-color: #C2E0FF;
+}
+li:hover ul{
+	visibility: visible;
+}
+li li{
+	float:none;
+	padding: 5px;
+}
